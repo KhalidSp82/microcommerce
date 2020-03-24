@@ -2,7 +2,6 @@ package com.ecommerce.microcommerce.web.model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
 public class Product {
@@ -13,8 +12,8 @@ public class Product {
     private int prix;
     private int prixAchat;
 
-    public Product() {
-    }
+    /*public Product() {
+    }*/
 
     public Product(int id, String nom, int prix, int prixAchat) {
         this.id = id;
