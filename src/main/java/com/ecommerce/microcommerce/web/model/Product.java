@@ -12,8 +12,8 @@ public class Product {
     private int prix;
     private int prixAchat;
 
-    /*public Product() {
-    }*/
+    public Product() {
+    }
 
     public Product(int id, String nom, int prix, int prixAchat) {
         this.id = id;
